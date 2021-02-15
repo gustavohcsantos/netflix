@@ -91,9 +91,27 @@ header nav a:hover
     transition: .3s ease all;
 }
 
+.botao a
+{
+    color: #000;
+    text-decoration: none;
+}
+
 .botao:hover
 {
     background-color: white;
+    color: black;
+}
+
+#assistir-agora
+{
+    background-color: rgba(255, 255, 255);
+    color: black;
+}
+
+#assistir-agora:hover
+{
+    background-color: rgba(255, 255, 255, 0.8);
     color: black;
 }
 
