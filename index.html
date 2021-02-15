@@ -4,27 +4,71 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style/main.css">
-        <title>NETFLIX</title>
+        <!-- OWL CSS -->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+        <!-- RESPONSIVIDADE -->
+        <link rel="stylesheet" href="style/responsives.css">
+        <title>IDIOTRIX</title>
     </head>
     <body>
         <header>
             <div class="container">
-                <h2 class="logo">NETFLIX</h2>
+                <h2 class="logo">IDIOTRIX</h2>
                 <nav>
-                    <a href="#">Início</a>
-                    <a href="#">Séries</a>
+                    <a href="index.html">Início</a>
+                    <a href="#">Zoeiras</a>
                     <a href="#">Filmes</a>
-                    <a href="#">Documentos</a>
+                    <a href="#">Minha lista</a>
                 </nav>
             </div>
         </header>
         <main>
             <div class="filme-principal">
                 <div class="container">
-                    <h3 class="titulo">HOUSE OF CARDS</h3>
-                    <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
+                    <h3 class="titulo">BIELA TORTA</h3>
+                    <p class="descricao">Fala aí molecada das naves pregadas no chão raspadores de lombada. Hoje o Biela Torta apresenta o 74° Carbaços. Neste episódio mostraremos idiotas que não sabem dirigir suas naves. Não adianta só dar grau na quebrada, tem que dar grau com classe. Se for dirigir, não beba! E se for de carona, vá com alguém que não fique olhando você gravar TIKTOK.</p>
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
                 </div>
             </div>
         </main>
+        <div classe="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/0d4db5545d.js"></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
     </body>
 </html>
